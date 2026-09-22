@@ -1,0 +1,19 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local runtime output
+*.log
+.DS_Store
+
+# Generated dataset output
+expanded/
+dataset/expanded/
